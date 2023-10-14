@@ -7,7 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.save.continuesave.save.listFoldersInDocuments
+import com.save.continuesave.save.CreateFoldersAndFiles
 import com.save.continuesave.ui.theme.ContinueSaveTheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +28,7 @@ fun MainScreen() {
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background
         ) {
-            listFoldersInDocuments()
+            CreateFoldersAndFiles().listFoldersInDocuments()
         }
     }
 }

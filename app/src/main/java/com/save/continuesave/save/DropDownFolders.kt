@@ -87,7 +87,7 @@ fun DropDownFolders(nameFolders: List<String>){
         }
     }
     if (returnNameButtonState){
-        listFoldersAndFilesInDocuments(returnNameButton)
+        CreateFoldersAndFiles().listFoldersAndFilesInDocuments(returnNameButton)
         returnNameButtonState = false
     }
 }
